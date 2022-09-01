@@ -15,6 +15,10 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	//	Ref for spring-boot-starter-web:
+	//	https://stackoverflow.com/questions/46052858/import-org-springframework-web-cannot-be-resolved-gradle
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	testImplementation 'org.springframework.boot:spring-boot-starter-web'
 }
 
 tasks.named('test') {
